@@ -156,7 +156,7 @@ AUTHENTICATION_BACKENDS = [
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
-
+ALLOWED_HOSTS=[".vercel.app",".now.sh"]
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 LOGIN_REDIRECT_URL = '/btech'
@@ -170,3 +170,7 @@ AUTHENTICATION_BACKENDS = (
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+import os
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
