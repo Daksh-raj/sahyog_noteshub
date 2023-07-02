@@ -17,6 +17,6 @@ score well in examinations as well.</p>
 <br>
 <img src="https://github.com/Daksh-raj/sahyog_noteshub/blob/main/image/Screenshot%20(11).png">
 <br>
-<img src="https://github.com/Daksh-raj/sahyog_noteshub/blob/main/image/Screenshot%20(12).png">
+<img src="https://github.com/Daksh-raj/sahyog_noteshub/blob/main/image/Screenshot%20(9).png">
 
 Happy Learning Further....
